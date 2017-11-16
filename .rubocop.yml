@@ -5,6 +5,21 @@ AllCops:
   ExtraDetails: true
   TargetRubyVersion: 2.4
 
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/*/**/*.rb
+
+Metrics/ParameterLists:
+  Exclude:
+    - lib/wirelang/elements/adder.rb
+
+Naming/AccessorMethodName:
+  Exclude:
+    - lib/wirelang/wire.rb
+
 Style/Documentation:
   Enabled: false
 
