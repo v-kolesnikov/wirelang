@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/v-kolesnikov/wirelang.svg?branch=master)](https://travis-ci.org/v-kolesnikov/wirelang)
 
 
-```
+```ruby
 o       o     o-O-o     o--o      o--o             o          O      o   o      o-o  
 |       |       |       |   |     |                |         / \     |\  |     o     
 o   o   o       |       O-Oo      O-o      o-o     |        o---o    | \ |     |  -o 
