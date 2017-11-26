@@ -55,6 +55,12 @@ RSpec.describe Wirelang do
         input_b.set_signal!(1)
       end
 
+      it do
+        expect { subject }.to change { changes }
+          .by([{ name: :carry, time: 11, signal: 1 },
+               { name: :sum, time: 16, signal: 0 }])
+      end
+
       it { expect { subject }.to change { agenda.time }.from(8).to(16) }
     end
   end
