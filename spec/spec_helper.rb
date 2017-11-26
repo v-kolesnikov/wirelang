@@ -1,5 +1,6 @@
 require 'bundler/setup'
 require 'wirelang'
+require 'constraints'
 
 require 'pry'
 
