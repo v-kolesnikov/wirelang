@@ -11,6 +11,7 @@ o   o   o       |       O-Oo      O-o      o-o     |        o---o    | \ |     |
 
 # Wirelang
 
+Some parts of my [SICP solutions](https://github.com/v-kolesnikov/sicp) written in Ruby.
 ## Installation
 
 Add this line to your application's Gemfile:
